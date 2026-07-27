@@ -1,0 +1,16 @@
+# Arquivos de ambiente e segredos (NUNCA SUBIR)
+.env
+
+# Ambientes virtuais Python
+venv/
+.venv/
+env/
+
+# Cache e arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
