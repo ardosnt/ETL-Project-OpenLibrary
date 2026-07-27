@@ -76,7 +76,7 @@ O banco ficará disponível em `localhost:5433`.
 ### 4. Instale as dependências
 
 ```bash
-pip install requests pandas python-dotenv sqlalchemy psycopg[binary]
+pip install -r requirements.txt
 ```
 
 > 💡 Se o repositório tiver um `requirements.txt`, use `pip install -r requirements.txt` no lugar do comando acima.
