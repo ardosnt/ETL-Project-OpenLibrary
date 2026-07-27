@@ -27,6 +27,8 @@ ETL-Project-OpenLibrary/
 ├── docker-compose.yml          # Sobe o container do PostgreSQL
 ├── .env.example                # Modelo das variáveis de ambiente
 └── .gitignore
+└── requirements
+
 ```
 
 ## 🔄 Como o pipeline funciona
