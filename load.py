@@ -14,7 +14,6 @@ PORT = "5433"
 engine = create_engine(f"postgresql+psycopg://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}",
                        client_encoding="utf8")
 
-import traceback
 
 def load_to_postgres(df: pd.DataFrame, table_name: str = 'tb_livros_cinema'):
     try:
